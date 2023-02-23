@@ -1,5 +1,0 @@
-What HTML do ?
-Browser has 2 things : Layout Engine , JS Engine
-Layout Engine -> it understand the HTML , CSS
-JS Engine -> it reads JS 
-

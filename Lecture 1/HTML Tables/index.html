@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Tables in HTML</title>
+</head>
+
+<body>
+    <h1>HTML Tables</h1>
+    <table border="5" cellspacing="10" cellpadding="5" bgcolor="lightblue">
+        <!-- table head  -->
+        <thead>
+            <tr>
+                <th>Days/Periods</th>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+            </tr>
+        </thead>
+        <!-- Table Body  -->
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td colspan="2" align="center">Maths</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>English</td>
+                <td>Games</td>
+                <td>Maths</td>
+                <td rowspan="2">Sanskrit</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Dance</td>
+                <td>Hindi</td>
+                <td>Music</td>
+            </tr>
+        </tbody>
+        <!-- Table Foot -->
+        <tfoot>
+            <tr>
+                <td colspan="5" align="center">This is Class VIII Time Table </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
